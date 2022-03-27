@@ -1,0 +1,28 @@
+.task {
+  border: 1px solid rgba(137, 214, 240, 0.6);
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 5px;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .operations {
+    display: flex;
+    gap: 15px;
+
+    .remove {
+      cursor: pointer;
+    }
+  }
+}
+
+.operations button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(137, 214, 240);
+  }
